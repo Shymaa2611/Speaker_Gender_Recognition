@@ -11,10 +11,10 @@ class SGR(nn.Module):
             nn.Linear(input_dim, 100),
             nn.ReLU(),
             nn.Dropout(0.5),
-            nn.Linear(100, 100),
+            nn.Linear(100, 200),
             nn.ReLU(),
             nn.Dropout(0.5),
-            nn.Linear(100, 1),
+            nn.Linear(200, 1),
             nn.Sigmoid()
         )
 
