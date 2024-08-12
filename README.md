@@ -25,5 +25,5 @@
 
 ![Training Plot](media/training_plot.png)
 
-## Checkpoint
+
  
